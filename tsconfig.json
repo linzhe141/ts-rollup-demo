@@ -3,11 +3,12 @@
     "declaration": true,
     "declarationDir": "dist/types",
     "module": "ESNext",
-    "target": "ESNext",
+    "target": "ES5",
     "sourceMap": true,
     "strict": true,
     "esModuleInterop": true,
     "moduleResolution": "node",
+    "resolveJsonModule": true,
     "skipLibCheck": true
   },
   "include": ["src"],

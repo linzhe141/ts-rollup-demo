@@ -1,4 +1,4 @@
-const fn = (data, y) => {
+var fn = function (data, y) {
     console.log('测试,watch');
     console.log('测试,watch');
     console.log('测试,watch');
@@ -9,7 +9,7 @@ const fn = (data, y) => {
 // };
 
 fn(1, 't');
-const foo = (data) => {
+var foo = function (data) {
     console.log(data);
 };
 foo('1');

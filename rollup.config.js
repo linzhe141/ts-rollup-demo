@@ -6,6 +6,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import resolve from '@rollup/plugin-node-resolve';
 // 打包时进行eslint校验
 import eslint from '@rollup/plugin-eslint';
+
 export default {
   input: 'src/index.ts',
   output: [
